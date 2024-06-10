@@ -13,7 +13,7 @@ namespace RozetkaParser
 
         static async Task Main(string[] args)
         {
-            await ParseRozetka("https://rozetka.com.ua/ua/games/c80066", Enumerable.Range(1, 5));
+            await ParseRozetka("https://hard.rozetka.com.ua/ua/mouses/c80172", Enumerable.Range(1, 5));
         }
 
         static async Task<string?> Get(string url)
